@@ -14,7 +14,7 @@ export default function PhotographyGrid() {
               <Link href={`/image/${index}`} aria-label={`Open image ${index + 1}`} className="block">
                 <Image
                   src={image.src}
-                  alt="Alex Feggi"
+                  alt="Jonathan Liu Image"
                   width={image.width}
                   height={image.height}
                   className="w-full h-auto object-cover duration-300 ease-in-out transition-transform group-hover:scale-[1.03]"

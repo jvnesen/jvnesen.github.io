@@ -1,0 +1,8 @@
+{
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "import/named": "off", // Disable the 'VariantProps not found' error
+    "@typescript-eslint/no-explicit-any": "off", // Disable the 'no-explicit-any' rule
+    // Add other rules to disable as needed
+  }
+}

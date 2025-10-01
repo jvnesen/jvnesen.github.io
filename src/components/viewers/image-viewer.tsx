@@ -54,7 +54,7 @@ export const ImageViewer = ({ index }: { index: number }) => {
         <div className="relative max-h-[85vh] w-auto" onClick={(e) => e.stopPropagation()}>
           <Image
             src={currentImage.src}
-            alt="Alex Feggi"
+            alt="Jonathan Liu Image"
             width={currentImage.width}
             height={currentImage.height}
             sizes="(max-width: 768px) 90vw, min(80vw, 1200px)"
